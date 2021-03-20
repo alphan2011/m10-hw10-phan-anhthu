@@ -1,0 +1,25 @@
+{
+  "name": "m10-hw10-phan-anhthu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphan2011/m10-hw10-phan-anhthu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphan2011/m10-hw10-phan-anhthu/issues"
+  },
+  "homepage": "https://github.com/alphan2011/m10-hw10-phan-anhthu#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
