@@ -5,3 +5,10 @@ const boiling = () => {
 }
 
 setTimeout(boiling, 0);
+
+const freezing = () => {
+    document.getElementById('freezing-temp').innerHTML =
+    32;
+}
+
+setTimeout(freezing, 0);
