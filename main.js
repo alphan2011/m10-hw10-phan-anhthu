@@ -12,3 +12,10 @@ const freezing = () => {
 }
 
 setTimeout(freezing, 0);
+
+const current = () => {
+    document.getElementById('water-temp').innerHTML =
+    60;
+}
+
+setTimeout(current, 0);
