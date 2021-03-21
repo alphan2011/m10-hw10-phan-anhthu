@@ -4,26 +4,30 @@ const boiling = () => {
     212;
 }
 setTimeout(boiling, 0);
+
 // Add freezing temp
 const freezing = () => {
     document.getElementById('freezing-temp').innerHTML =
     32;
 }
 setTimeout(freezing, 0);
+
 // Add current temp
 const current = () => {
     document.getElementById('water-temp').innerHTML =
     60;
 }
 setTimeout(current, 0);
+
 // Show message
+let currentTemp = 60;
 let message = () => {
-    if (current > 212) {
+    if (currentTemp > 212) {
         let section1 = document.getElementById('boiling');
         section1.classList.remove('hide');
         section1.classList.add('show');
     }
-    else if (current < 32) {
+    else if (currentTemp < 32) {
         let section2 = document.getElementById('frozen');
         section2.classList.remove('hide');
         section2.classList.add('show');
